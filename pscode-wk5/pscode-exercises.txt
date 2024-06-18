@@ -36,6 +36,5 @@ lgm = largest number
 
 print avg ## prints the sum of all numbers divided by 5 to get the average
 print smn, lgm ## prints the smallest number and the largest number of the set of 5
-(Your pseudocode here)
 
 -- END --
