@@ -14,22 +14,28 @@ print on the screen the sum of those 2 numbers
 
 if sum is even
 print even
-else print odd
+else 
+print odd
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
 
 a) Read in 5 separate numbers.
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
 num1
 num2
 num3
 num4
 num5
-b) Calculate the average of the five numbers.
-num1 + num2 + num3 + num4 + num5 = avg
-c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
-d) Write out the results found from steps b and c with a message describing what they are
+sum = num1 + num2 + num3 + num4 + num5
+avg = sum \ 5
+smn = smallest number
+lgm = largest number
 
+print avg ## prints the sum of all numbers divided by 5 to get the average
+print smn, lgm ## prints the smallest number and the largest number of the set of 5
 (Your pseudocode here)
 
 -- END --
